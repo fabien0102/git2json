@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-require('../src/git2json.js').git2json().then(json =>
+require('../src/git2json.js').run().then(json =>
   console.log(JSON.stringify(json, null, 2))
 );

@@ -69,7 +69,7 @@ function git2json({
 };
 
 module.exports = {
-  git2json,
+  run: git2json,
   defaultFields,
   parsers
 };

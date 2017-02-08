@@ -1,9 +1,9 @@
-const git2json = require('../src/git2json').git2json;
+const git2json = require('../src/git2json').run;
 const fs = require('fs');
 
 jest.mock('child_process');
 
-describe('git2json', () => {
+describe('git2json.run', () => {
 
   it('should parse correctly git log', () => {
     require('child_process').__setExecFn((cmd, callback) => callback(null, fs.readFileSync('test/gitlog.mock', 'utf8')));

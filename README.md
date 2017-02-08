@@ -15,7 +15,7 @@ Simple tool to get a JSON from your git log.
 1. Use it!
 
 ```javascript
-const git2json = require('@fabien0102/git2json').git2json()
+const git2json = require('@fabien0102/git2json').run()
   .then(myGitLogJSON => console.log(myGitLogJSON));
 ```
 
@@ -33,6 +33,6 @@ const exportedFields = {
   shortTree: { value: '%T', parser: a => a.slice(0, 5)}
 };
 
-git2json.git2json({fields: exportedFields})
+git2json.run({fields: exportedFields})
   .then(json => console.log(json));
 ```
