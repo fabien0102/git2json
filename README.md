@@ -1,4 +1,6 @@
-# git2json
+# git2json 
+[![Build Status](https://travis-ci.org/fabien0102/git2json.svg?branch=master)](https://travis-ci.org/fabien0102/git2json)
+[![Coverage Status](https://coveralls.io/repos/github/fabien0102/git2json/badge.svg?branch=master)](https://coveralls.io/github/fabien0102/git2json?branch=master)
 
 Simple tool to get a JSON from your git log.
 

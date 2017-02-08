@@ -11,7 +11,8 @@
     "git2json": "bin/git2json"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "cat coverage/lcov.info | coveralls"
   },
   "keywords": [
     "git",
@@ -21,6 +22,7 @@
   "jest": {
     "collectCoverage": true,
     "coverageReporters": [
+      "lcov",
       "text",
       "html"
     ]
@@ -28,6 +30,7 @@
   "author": "fabien0102 <fabien0102@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.11.16",
     "jest": "18.1.0"
   }
 }
