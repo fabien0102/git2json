@@ -1,8 +1,12 @@
 {
   "name": "git2json",
-  "version": "0.0.0",
-  "description": "Pretty git log viewer",
+  "version": "1.0.0",
+  "description": "Simple tool to get a JSON from your git log.",
   "main": "src/git2json.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fabien0102/git2json.git"
+  },
   "bin": {
     "git2json": "bin/git2json"
   },
