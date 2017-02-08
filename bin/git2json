@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
+require('../src/git2json.js').git2json({ fields: { commit: { value: '%H' } } }).then(json =>
+  console.log(JSON.stringify(json, null, 2))
+);

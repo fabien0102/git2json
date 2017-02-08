@@ -1,0 +1,29 @@
+{
+  "name": "git2json",
+  "version": "0.0.0",
+  "description": "Pretty git log viewer",
+  "main": "src/git2json.js",
+  "bin": {
+    "git2json": "bin/git2json"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "git",
+    "json",
+    "log"
+  ],
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "html"
+    ]
+  },
+  "author": "fabien0102 <fabien0102@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "18.1.0"
+  }
+}

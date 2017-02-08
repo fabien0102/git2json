@@ -1,0 +1,225 @@
+69d13fd57984d923c14d2d129cf57598a4de95e8
+2	0	package.json
+7	0	src/components/App/App.test.tsx
+214	0	src/components/App/__snapshots__/App.test.tsx.snap
+12	12	yarn.lock
+
+525269e1f7054d83072833debbcb72816b77712e
+2	0	README.md
+3	1	package.json
+84	0	webpack.config.prod.js
+69	4	yarn.lock
+
+49563eb4e1559e31ce54cbfa0d3d39677e64957e
+9	3	dist/index.html
+1	1	src/components/App/App.tsx
+
+805f1e41fa6a7e978948f552bba8d00d5254ac0f
+9	22	README.md
+
+41e7052ef933216c70e482f7c46005aa16b0c477
+44	4	src/components/App/App.scss
+3	0	src/components/App/App.scss.d.ts
+17	4	src/components/App/App.tsx
+
+0657b68450be2ede380d407c75883baf9afc1590
+23	0	src/components/App/App.scss
+5	1	src/components/App/App.scss.d.ts
+5	1	src/components/App/App.tsx
+
+69222d0644972bac27d6696f1f006f192a77897d
+4	1	README.md
+1	0	dist/index.html
+43	0	src/components/App/App.scss
+1	1	src/components/App/App.tsx
+5	6	src/components/Cell/Cell.scss
+27	1	src/reducers/game.reducer.test.ts
+7	5	src/reducers/game.reducer.ts
+2	1	src/store.ts
+4	0	src/styles/variables.scss
+
+933d09839b6e56d27b318af51efb24bf0559c12a
+18	1	src/reducers/game.reducer.test.ts
+1	0	src/reducers/game.reducer.ts
+
+59a673e0ccac8f8705a8f60c876f19072168dd5a
+0	20	src/components/Counter/Counter.test.tsx
+0	19	src/components/Counter/Counter.tsx
+
+3da44c73185d242a68417d0c987bb52752c7d4be
+2	2	README.md
+5	0	src/actions/actions.test.ts
+6	0	src/actions/actions.ts
+10	7	src/components/App/App.tsx
+14	18	src/components/Cell/Cell.scss
+1	0	src/components/Cell/Cell.scss.d.ts
+14	11	src/components/Cell/Cell.test.tsx
+9	2	src/components/Cell/Cell.tsx
+88	0	src/reducers/game.reducer.test.ts
+16	2	src/reducers/game.reducer.ts
+1	0	src/store.ts
+
+4c569a90c79f4a01862104670cfcc1fc0d626538
+1	1	package.json
+
+042b854ebc8ced47139077e23f78f97bda3efb3f
+5	0	README.md
+7	3	src/components/App/App.tsx
+29	0	src/reducers/game.reducer.test.ts
+6	4	src/reducers/game.reducer.ts
+
+fba589811d6c2fa63a36b8ca50461b30c2006def
+0	14	src/components/App/App.css
+0	3	src/components/App/App.css.d.ts
+17	0	src/components/App/App.scss
+3	0	src/components/App/App.scss.d.ts
+1	1	src/components/App/App.tsx
+1	0	src/components/Cell/Cell.scss
+
+53c3c8ccd4b347e7e2e71716b5e30c7341538e8a
+0	31	src/components/Cell/Cell.css
+0	4	src/components/Cell/Cell.css.d.ts
+33	0	src/components/Cell/Cell.scss
+4	0	src/components/Cell/Cell.scss.d.ts
+1	1	src/components/Cell/Cell.test.tsx
+1	1	src/components/Cell/Cell.tsx
+
+95697b4e495d85ef25589e4181472b1f25ae608a
+2	0	package.json
+9	0	webpack.config.js
+237	16	yarn.lock
+
+73c243b552c78054cb641bd8d24d9782ce011f4c
+21	8	src/components/Cell/Cell.css
+1	1	src/components/Cell/Cell.css.d.ts
+3	3	src/components/Cell/Cell.test.tsx
+1	1	src/components/Cell/Cell.tsx
+
+47e77308d75af8bd18926fb55264abcda104375c
+5	0	src/actions/actions.test.ts
+4	1	src/actions/actions.ts
+3	3	src/components/App/App.tsx
+259	222	src/reducers/game.reducer.test.ts
+5	1	src/reducers/game.reducer.ts
+1	1	src/store.ts
+
+7f0e9e34c99c2d0e987bba073f2444920e23958d
+9	1	src/components/App/App.css
+3	1	src/components/App/App.css.d.ts
+4	3	src/components/App/App.test.tsx
+26	6	src/components/App/App.tsx
+
+577c730d49c40ced87ae3e9f8febf6eeddecf130
+2	2	src/actions/actions.test.ts
+0	1	src/actions/actions.ts
+9	9	src/reducers/game.reducer.test.ts
+7	7	src/reducers/game.reducer.ts
+2	2	src/store.ts
+
+f1a9a24fd21e814fe42817b4161cc884c022fbd9
+18	0	src/components/Cell/Cell.css
+4	0	src/components/Cell/Cell.css.d.ts
+7	6	src/components/Cell/Cell.test.tsx
+5	4	src/components/Cell/Cell.tsx
+
+99ad9245549476729f2be6547edeebbdfac4d02e
+38	0	src/components/Cell/Cell.test.tsx
+25	0	src/components/Cell/Cell.tsx
+
+b707e775814f9039c40b93faa6317ed7befb44a7
+3	8	src/actions/actions.test.ts
+7	15	src/actions/actions.ts
+5	9	src/components/App/App.tsx
+3	0	src/constants.ts
+0	25	src/reducers/counter.reducer.test.ts
+0	19	src/reducers/counter.reducer.ts
+239	0	src/reducers/game.reducer.test.ts
+49	0	src/reducers/game.reducer.ts
+2	2	src/reducers/reducers.ts
+8	2	src/store.ts
+
+85ab369c0d1060195308cdfa560a0293135efb28
+1	1	README.md
+
+0fcafddfeb8d59494afd86e63e7e774237e2de7b
+1	0	package.json
+4	0	yarn.lock
+
+4431d109cb4803ef944bb40b45400c17def87903
+2	1	tsconfig.json
+
+66f07c0e9ead7c2297804debf3ef31448463d5db
+1	1	src/actions/actions.test.ts
+17	0	src/actions/actions.ts
+0	14	src/actions/index.ts
+2	3	src/components/App/App.tsx
+3	10	src/index.tsx
+1	1	src/reducers/counter.reducer.test.ts
+8	6	src/reducers/counter.reducer.ts
+0	6	src/reducers/index.ts
+6	0	src/reducers/reducers.ts
+0	6	src/store.d.ts
+13	0	src/store.ts
+
+8504a86fdfc54d2a71304324814c539e674bc34c
+2	0	package.json
+13	0	src/actions/actions.test.ts
+13	9	src/actions/index.ts
+2	2	src/components/App/App.test.tsx
+1	1	src/components/App/App.tsx
+20	0	src/components/Counter/Counter.test.tsx
+2	3	src/components/Counter/Counter.tsx
+25	0	src/reducers/counter.reducer.test.ts
+12	13	src/reducers/counter.reducer.ts
+17	1	yarn.lock
+
+6a93d886965f6bde28b2ed47647a0d68d6a0e7c7
+1	1	src/actions/index.ts
+12	12	src/components/Counter/Counter.tsx
+103	0	tslint.json
+
+d0efa24b915bb90843f9b8b5100bf890e1730be3
+2	0	package.json
+10	0	src/actions/index.ts
+0	1	src/components/App/App.css
+24	2	src/components/App/App.tsx
+20	0	src/components/Counter/Counter.tsx
+13	3	src/index.tsx
+18	0	src/reducers/counter.reducer.ts
+6	0	src/reducers/index.ts
+6	0	src/store.d.ts
+23	2	yarn.lock
+
+9ed653762c4b4d77a1f964fa48cbdf08d246e0af
+2	2	README.md
+1	0	__mocks__/styleMock.js
+20	0	package.json
+12	0	src/components/App/App.test.tsx
+12	7	src/components/App/App.tsx
+2	1	webpack.config.js
+619	23	yarn.lock
+
+ea00737621459bf5693e5e695e291a0989fc9a9e
+1	1	README.md
+0	6	src/components/App.css
+0	10	src/components/App.jsx
+7	0	src/components/App/App.css
+1	0	src/components/App/App.css.d.ts
+10	0	src/components/App/App.tsx
+2	0	src/declarations.d.ts
+0	26	src/index.jsx
+26	0	src/index.tsx
+13	0	tsconfig.json
+8	2	webpack.config.js
+
+ee6ef2d73d32282c63d127bc835638a9160641b5
+18	0	.babelrc
+84	0	.gitignore
+32	0	README.md
+11	0	dist/index.html
+35	0	package.json
+6	0	src/components/App.css
+10	0	src/components/App.jsx
+26	0	src/index.jsx
+76	0	webpack.config.js
+4690	0	yarn.lock

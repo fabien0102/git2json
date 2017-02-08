@@ -1,0 +1,972 @@
+[
+  {
+    "commit": "69d13fd57984d923c14d2d129cf57598a4de95e8",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 7,
+        "deletions": 0,
+        "file": "src/components/App/App.test.tsx"
+      },
+      {
+        "additions": 214,
+        "deletions": 0,
+        "file": "src/components/App/__snapshots__/App.test.tsx.snap"
+      },
+      {
+        "additions": 12,
+        "deletions": 12,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "525269e1f7054d83072833debbcb72816b77712e",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 0,
+        "file": "README.md"
+      },
+      {
+        "additions": 3,
+        "deletions": 1,
+        "file": "package.json"
+      },
+      {
+        "additions": 84,
+        "deletions": 0,
+        "file": "webpack.config.prod.js"
+      },
+      {
+        "additions": 69,
+        "deletions": 4,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "49563eb4e1559e31ce54cbfa0d3d39677e64957e",
+    "stats": [
+      {
+        "additions": 9,
+        "deletions": 3,
+        "file": "dist/index.html"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/App/App.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "805f1e41fa6a7e978948f552bba8d00d5254ac0f",
+    "stats": [
+      {
+        "additions": 9,
+        "deletions": 22,
+        "file": "README.md"
+      }
+    ]
+  },
+  {
+    "commit": "41e7052ef933216c70e482f7c46005aa16b0c477",
+    "stats": [
+      {
+        "additions": 44,
+        "deletions": 4,
+        "file": "src/components/App/App.scss"
+      },
+      {
+        "additions": 3,
+        "deletions": 0,
+        "file": "src/components/App/App.scss.d.ts"
+      },
+      {
+        "additions": 17,
+        "deletions": 4,
+        "file": "src/components/App/App.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "0657b68450be2ede380d407c75883baf9afc1590",
+    "stats": [
+      {
+        "additions": 23,
+        "deletions": 0,
+        "file": "src/components/App/App.scss"
+      },
+      {
+        "additions": 5,
+        "deletions": 1,
+        "file": "src/components/App/App.scss.d.ts"
+      },
+      {
+        "additions": 5,
+        "deletions": 1,
+        "file": "src/components/App/App.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "69222d0644972bac27d6696f1f006f192a77897d",
+    "stats": [
+      {
+        "additions": 4,
+        "deletions": 1,
+        "file": "README.md"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "dist/index.html"
+      },
+      {
+        "additions": 43,
+        "deletions": 0,
+        "file": "src/components/App/App.scss"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 5,
+        "deletions": 6,
+        "file": "src/components/Cell/Cell.scss"
+      },
+      {
+        "additions": 27,
+        "deletions": 1,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 7,
+        "deletions": 5,
+        "file": "src/reducers/game.reducer.ts"
+      },
+      {
+        "additions": 2,
+        "deletions": 1,
+        "file": "src/store.ts"
+      },
+      {
+        "additions": 4,
+        "deletions": 0,
+        "file": "src/styles/variables.scss"
+      }
+    ]
+  },
+  {
+    "commit": "933d09839b6e56d27b318af51efb24bf0559c12a",
+    "stats": [
+      {
+        "additions": 18,
+        "deletions": 1,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "src/reducers/game.reducer.ts"
+      }
+    ]
+  },
+  {
+    "commit": "59a673e0ccac8f8705a8f60c876f19072168dd5a",
+    "stats": [
+      {
+        "additions": 0,
+        "deletions": 20,
+        "file": "src/components/Counter/Counter.test.tsx"
+      },
+      {
+        "additions": 0,
+        "deletions": 19,
+        "file": "src/components/Counter/Counter.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "3da44c73185d242a68417d0c987bb52752c7d4be",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "README.md"
+      },
+      {
+        "additions": 5,
+        "deletions": 0,
+        "file": "src/actions/actions.test.ts"
+      },
+      {
+        "additions": 6,
+        "deletions": 0,
+        "file": "src/actions/actions.ts"
+      },
+      {
+        "additions": 10,
+        "deletions": 7,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 14,
+        "deletions": 18,
+        "file": "src/components/Cell/Cell.scss"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.scss.d.ts"
+      },
+      {
+        "additions": 14,
+        "deletions": 11,
+        "file": "src/components/Cell/Cell.test.tsx"
+      },
+      {
+        "additions": 9,
+        "deletions": 2,
+        "file": "src/components/Cell/Cell.tsx"
+      },
+      {
+        "additions": 88,
+        "deletions": 0,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 16,
+        "deletions": 2,
+        "file": "src/reducers/game.reducer.ts"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "src/store.ts"
+      }
+    ]
+  },
+  {
+    "commit": "4c569a90c79f4a01862104670cfcc1fc0d626538",
+    "stats": [
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "package.json"
+      }
+    ]
+  },
+  {
+    "commit": "042b854ebc8ced47139077e23f78f97bda3efb3f",
+    "stats": [
+      {
+        "additions": 5,
+        "deletions": 0,
+        "file": "README.md"
+      },
+      {
+        "additions": 7,
+        "deletions": 3,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 29,
+        "deletions": 0,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 6,
+        "deletions": 4,
+        "file": "src/reducers/game.reducer.ts"
+      }
+    ]
+  },
+  {
+    "commit": "fba589811d6c2fa63a36b8ca50461b30c2006def",
+    "stats": [
+      {
+        "additions": 0,
+        "deletions": 14,
+        "file": "src/components/App/App.css"
+      },
+      {
+        "additions": 0,
+        "deletions": 3,
+        "file": "src/components/App/App.css.d.ts"
+      },
+      {
+        "additions": 17,
+        "deletions": 0,
+        "file": "src/components/App/App.scss"
+      },
+      {
+        "additions": 3,
+        "deletions": 0,
+        "file": "src/components/App/App.scss.d.ts"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.scss"
+      }
+    ]
+  },
+  {
+    "commit": "53c3c8ccd4b347e7e2e71716b5e30c7341538e8a",
+    "stats": [
+      {
+        "additions": 0,
+        "deletions": 31,
+        "file": "src/components/Cell/Cell.css"
+      },
+      {
+        "additions": 0,
+        "deletions": 4,
+        "file": "src/components/Cell/Cell.css.d.ts"
+      },
+      {
+        "additions": 33,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.scss"
+      },
+      {
+        "additions": 4,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.scss.d.ts"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/Cell/Cell.test.tsx"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/Cell/Cell.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "95697b4e495d85ef25589e4181472b1f25ae608a",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 9,
+        "deletions": 0,
+        "file": "webpack.config.js"
+      },
+      {
+        "additions": 237,
+        "deletions": 16,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "73c243b552c78054cb641bd8d24d9782ce011f4c",
+    "stats": [
+      {
+        "additions": 21,
+        "deletions": 8,
+        "file": "src/components/Cell/Cell.css"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/Cell/Cell.css.d.ts"
+      },
+      {
+        "additions": 3,
+        "deletions": 3,
+        "file": "src/components/Cell/Cell.test.tsx"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/Cell/Cell.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "47e77308d75af8bd18926fb55264abcda104375c",
+    "stats": [
+      {
+        "additions": 5,
+        "deletions": 0,
+        "file": "src/actions/actions.test.ts"
+      },
+      {
+        "additions": 4,
+        "deletions": 1,
+        "file": "src/actions/actions.ts"
+      },
+      {
+        "additions": 3,
+        "deletions": 3,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 259,
+        "deletions": 222,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 5,
+        "deletions": 1,
+        "file": "src/reducers/game.reducer.ts"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/store.ts"
+      }
+    ]
+  },
+  {
+    "commit": "7f0e9e34c99c2d0e987bba073f2444920e23958d",
+    "stats": [
+      {
+        "additions": 9,
+        "deletions": 1,
+        "file": "src/components/App/App.css"
+      },
+      {
+        "additions": 3,
+        "deletions": 1,
+        "file": "src/components/App/App.css.d.ts"
+      },
+      {
+        "additions": 4,
+        "deletions": 3,
+        "file": "src/components/App/App.test.tsx"
+      },
+      {
+        "additions": 26,
+        "deletions": 6,
+        "file": "src/components/App/App.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "577c730d49c40ced87ae3e9f8febf6eeddecf130",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "src/actions/actions.test.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 1,
+        "file": "src/actions/actions.ts"
+      },
+      {
+        "additions": 9,
+        "deletions": 9,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 7,
+        "deletions": 7,
+        "file": "src/reducers/game.reducer.ts"
+      },
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "src/store.ts"
+      }
+    ]
+  },
+  {
+    "commit": "f1a9a24fd21e814fe42817b4161cc884c022fbd9",
+    "stats": [
+      {
+        "additions": 18,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.css"
+      },
+      {
+        "additions": 4,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.css.d.ts"
+      },
+      {
+        "additions": 7,
+        "deletions": 6,
+        "file": "src/components/Cell/Cell.test.tsx"
+      },
+      {
+        "additions": 5,
+        "deletions": 4,
+        "file": "src/components/Cell/Cell.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "99ad9245549476729f2be6547edeebbdfac4d02e",
+    "stats": [
+      {
+        "additions": 38,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.test.tsx"
+      },
+      {
+        "additions": 25,
+        "deletions": 0,
+        "file": "src/components/Cell/Cell.tsx"
+      }
+    ]
+  },
+  {
+    "commit": "b707e775814f9039c40b93faa6317ed7befb44a7",
+    "stats": [
+      {
+        "additions": 3,
+        "deletions": 8,
+        "file": "src/actions/actions.test.ts"
+      },
+      {
+        "additions": 7,
+        "deletions": 15,
+        "file": "src/actions/actions.ts"
+      },
+      {
+        "additions": 5,
+        "deletions": 9,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 3,
+        "deletions": 0,
+        "file": "src/constants.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 25,
+        "file": "src/reducers/counter.reducer.test.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 19,
+        "file": "src/reducers/counter.reducer.ts"
+      },
+      {
+        "additions": 239,
+        "deletions": 0,
+        "file": "src/reducers/game.reducer.test.ts"
+      },
+      {
+        "additions": 49,
+        "deletions": 0,
+        "file": "src/reducers/game.reducer.ts"
+      },
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "src/reducers/reducers.ts"
+      },
+      {
+        "additions": 8,
+        "deletions": 2,
+        "file": "src/store.ts"
+      }
+    ]
+  },
+  {
+    "commit": "85ab369c0d1060195308cdfa560a0293135efb28",
+    "stats": [
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "README.md"
+      }
+    ]
+  },
+  {
+    "commit": "0fcafddfeb8d59494afd86e63e7e774237e2de7b",
+    "stats": [
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 4,
+        "deletions": 0,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "4431d109cb4803ef944bb40b45400c17def87903",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 1,
+        "file": "tsconfig.json"
+      }
+    ]
+  },
+  {
+    "commit": "66f07c0e9ead7c2297804debf3ef31448463d5db",
+    "stats": [
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/actions/actions.test.ts"
+      },
+      {
+        "additions": 17,
+        "deletions": 0,
+        "file": "src/actions/actions.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 14,
+        "file": "src/actions/index.ts"
+      },
+      {
+        "additions": 2,
+        "deletions": 3,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 3,
+        "deletions": 10,
+        "file": "src/index.tsx"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/reducers/counter.reducer.test.ts"
+      },
+      {
+        "additions": 8,
+        "deletions": 6,
+        "file": "src/reducers/counter.reducer.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 6,
+        "file": "src/reducers/index.ts"
+      },
+      {
+        "additions": 6,
+        "deletions": 0,
+        "file": "src/reducers/reducers.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 6,
+        "file": "src/store.d.ts"
+      },
+      {
+        "additions": 13,
+        "deletions": 0,
+        "file": "src/store.ts"
+      }
+    ]
+  },
+  {
+    "commit": "8504a86fdfc54d2a71304324814c539e674bc34c",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 13,
+        "deletions": 0,
+        "file": "src/actions/actions.test.ts"
+      },
+      {
+        "additions": 13,
+        "deletions": 9,
+        "file": "src/actions/index.ts"
+      },
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "src/components/App/App.test.tsx"
+      },
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 20,
+        "deletions": 0,
+        "file": "src/components/Counter/Counter.test.tsx"
+      },
+      {
+        "additions": 2,
+        "deletions": 3,
+        "file": "src/components/Counter/Counter.tsx"
+      },
+      {
+        "additions": 25,
+        "deletions": 0,
+        "file": "src/reducers/counter.reducer.test.ts"
+      },
+      {
+        "additions": 12,
+        "deletions": 13,
+        "file": "src/reducers/counter.reducer.ts"
+      },
+      {
+        "additions": 17,
+        "deletions": 1,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "6a93d886965f6bde28b2ed47647a0d68d6a0e7c7",
+    "stats": [
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "src/actions/index.ts"
+      },
+      {
+        "additions": 12,
+        "deletions": 12,
+        "file": "src/components/Counter/Counter.tsx"
+      },
+      {
+        "additions": 103,
+        "deletions": 0,
+        "file": "tslint.json"
+      }
+    ]
+  },
+  {
+    "commit": "d0efa24b915bb90843f9b8b5100bf890e1730be3",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 10,
+        "deletions": 0,
+        "file": "src/actions/index.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 1,
+        "file": "src/components/App/App.css"
+      },
+      {
+        "additions": 24,
+        "deletions": 2,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 20,
+        "deletions": 0,
+        "file": "src/components/Counter/Counter.tsx"
+      },
+      {
+        "additions": 13,
+        "deletions": 3,
+        "file": "src/index.tsx"
+      },
+      {
+        "additions": 18,
+        "deletions": 0,
+        "file": "src/reducers/counter.reducer.ts"
+      },
+      {
+        "additions": 6,
+        "deletions": 0,
+        "file": "src/reducers/index.ts"
+      },
+      {
+        "additions": 6,
+        "deletions": 0,
+        "file": "src/store.d.ts"
+      },
+      {
+        "additions": 23,
+        "deletions": 2,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "9ed653762c4b4d77a1f964fa48cbdf08d246e0af",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "README.md"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "__mocks__/styleMock.js"
+      },
+      {
+        "additions": 20,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 12,
+        "deletions": 0,
+        "file": "src/components/App/App.test.tsx"
+      },
+      {
+        "additions": 12,
+        "deletions": 7,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 2,
+        "deletions": 1,
+        "file": "webpack.config.js"
+      },
+      {
+        "additions": 619,
+        "deletions": 23,
+        "file": "yarn.lock"
+      }
+    ]
+  },
+  {
+    "commit": "ea00737621459bf5693e5e695e291a0989fc9a9e",
+    "stats": [
+      {
+        "additions": 1,
+        "deletions": 1,
+        "file": "README.md"
+      },
+      {
+        "additions": 0,
+        "deletions": 6,
+        "file": "src/components/App.css"
+      },
+      {
+        "additions": 0,
+        "deletions": 10,
+        "file": "src/components/App.jsx"
+      },
+      {
+        "additions": 7,
+        "deletions": 0,
+        "file": "src/components/App/App.css"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "src/components/App/App.css.d.ts"
+      },
+      {
+        "additions": 10,
+        "deletions": 0,
+        "file": "src/components/App/App.tsx"
+      },
+      {
+        "additions": 2,
+        "deletions": 0,
+        "file": "src/declarations.d.ts"
+      },
+      {
+        "additions": 0,
+        "deletions": 26,
+        "file": "src/index.jsx"
+      },
+      {
+        "additions": 26,
+        "deletions": 0,
+        "file": "src/index.tsx"
+      },
+      {
+        "additions": 13,
+        "deletions": 0,
+        "file": "tsconfig.json"
+      },
+      {
+        "additions": 8,
+        "deletions": 2,
+        "file": "webpack.config.js"
+      }
+    ]
+  },
+  {
+    "commit": "ee6ef2d73d32282c63d127bc835638a9160641b5",
+    "stats": [
+      {
+        "additions": 18,
+        "deletions": 0,
+        "file": ".babelrc"
+      },
+      {
+        "additions": 84,
+        "deletions": 0,
+        "file": ".gitignore"
+      },
+      {
+        "additions": 32,
+        "deletions": 0,
+        "file": "README.md"
+      },
+      {
+        "additions": 11,
+        "deletions": 0,
+        "file": "dist/index.html"
+      },
+      {
+        "additions": 35,
+        "deletions": 0,
+        "file": "package.json"
+      },
+      {
+        "additions": 6,
+        "deletions": 0,
+        "file": "src/components/App.css"
+      },
+      {
+        "additions": 10,
+        "deletions": 0,
+        "file": "src/components/App.jsx"
+      },
+      {
+        "additions": 26,
+        "deletions": 0,
+        "file": "src/index.jsx"
+      },
+      {
+        "additions": 76,
+        "deletions": 0,
+        "file": "webpack.config.js"
+      },
+      {
+        "additions": 4690,
+        "deletions": 0,
+        "file": "yarn.lock"
+      }
+    ]
+  }
+]
