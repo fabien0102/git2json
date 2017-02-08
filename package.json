@@ -1,5 +1,5 @@
 {
-  "name": "git2json",
+  "name": "@fabien0102/git2json",
   "version": "1.0.0",
   "description": "Simple tool to get a JSON from your git log.",
   "main": "src/git2json.js",
