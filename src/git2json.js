@@ -26,13 +26,12 @@ const defaultFields = {
  * 
  * @param {object} [options]
  * @param {object} [options.fields] - fields to exports
- * @param {function} [options.exec] - exec function (useful for tests)
  * @return {Promise}
  */
 function git2json({
-  fields = defaultFields,
-  exec = require('child_process').exec
+  fields = defaultFields
 } = {}) {
+  const exec = require('child_process').exec;
   const keys = Object.keys(fields);
   const prettyKeys = keys.map(a => fields[a].value).join('%x00');
   const gitLogCmd = `git log --pretty=format:"%x01${prettyKeys}%x01" --numstat --date-order`;
