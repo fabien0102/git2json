@@ -66,7 +66,7 @@ function git2json({
       resolve(json);
     });
   });
-};
+}
 
 module.exports = {
   run: git2json,
