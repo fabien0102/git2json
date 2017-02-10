@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/fabien0102/git2json.svg?branch=master)](https://travis-ci.org/fabien0102/git2json)
 [![Code Climate](https://codeclimate.com/github/fabien0102/git2json/badges/gpa.svg)](https://codeclimate.com/github/fabien0102/git2json)
 [![Issue Count](https://lima.codeclimate.com/github/fabien0102/git2json/badges/issue_count.svg)](https://lima.codeclimate.com/github/fabien0102/git2json)
-[![Coverage Status](https://coveralls.io/repos/github/fabien0102/git2json/badge.svg?branch=master)](https://coveralls.io/github/fabien0102/git2json?branch=master)
+[![Test Coverage](https://lima.codeclimate.com/github/fabien0102/git2json/badges/coverage.svg)](https://lima.codeclimate.com/github/fabien0102/git2json/coverage)
 [![npm version](https://badge.fury.io/js/%40fabien0102%2Fgit2json.svg)](https://badge.fury.io/js/%40fabien0102%2Fgit2json)
 
 Simple tool to get a JSON from your git log.

@@ -1,9 +1,7 @@
 language: node_js
 node_js:
   - "6.9.5"
-after_script: 
-  - npm run coveralls
-  - npm run codeclimate
+after_script: npm run codeclimate
 addons:
     code_climate:
         repo_token: 6acf3efe4c0b92d5fc2c8adc896bae022ff070b4e3a04e51a0e7f8de545dc513
