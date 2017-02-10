@@ -38,7 +38,6 @@ function git2json({
 
   return new Promise((resolve, reject) => {
     exec(gitLogCmd, (err, stdout, stderr) => {
-      require('fs').writeFileSync('stdout', stdout);
       if (err) return reject(err);
       const data = stdout.split('\u0001');
       const stats = data.filter((a, i) => (i + 1) % 2);
