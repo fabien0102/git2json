@@ -31,7 +31,7 @@ const defaultFields = {
 function git2json({
   fields = defaultFields
 } = {}) {
-  const exec = require('child_process').exec;
+  const exec = require('child_process').exec; // this require can't be global for mocking issue
   const keys = Object.keys(fields);
   const prettyKeys = keys.map(a => fields[a].value).join('%x00');
   const gitLogCmd = `git log --pretty=format:"%x01${prettyKeys}%x01" --numstat --date-order`;
