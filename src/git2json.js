@@ -4,8 +4,8 @@ const parsers = require('./parsers');
 // see https://git-scm.com/docs/pretty-formats for placeholder codes
 const defaultFields = {
   refs: { value: '%d', parser: parsers.refs },
-  commit: { value: '%H' },
-  commitAbbrev: { value: '%h' },
+  hash: { value: '%H' },
+  hashAbbrev: { value: '%h' },
   tree: { value: '%T' },
   treeAbbrev: { value: '%t' },
   parents: { value: '%P', parser: parsers.parents },

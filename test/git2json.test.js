@@ -24,7 +24,7 @@ describe('git2json.run', () => {
     require('child_process').__setExecFn((cmd, callback) => callback(null, fs.readFileSync('test/gitlog-only-commit.mock', 'utf8')));
     const expected = JSON.parse(fs.readFileSync('test/gitlog-only-commit.expected', 'utf8'));
 
-    return git2json({ fields: { commit: { value: '%H' } } })
+    return git2json({ fields: { hash: { value: '%H' } } })
       .then(res => expect(res).toEqual(expected));
   });
 });

@@ -1,6 +1,6 @@
 [
   {
-    "commit": "69d13fd57984d923c14d2d129cf57598a4de95e8",
+    "hash": "69d13fd57984d923c14d2d129cf57598a4de95e8",
     "stats": [
       {
         "additions": 2,
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "commit": "525269e1f7054d83072833debbcb72816b77712e",
+    "hash": "525269e1f7054d83072833debbcb72816b77712e",
     "stats": [
       {
         "additions": 2,
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "commit": "49563eb4e1559e31ce54cbfa0d3d39677e64957e",
+    "hash": "49563eb4e1559e31ce54cbfa0d3d39677e64957e",
     "stats": [
       {
         "additions": 9,
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "commit": "805f1e41fa6a7e978948f552bba8d00d5254ac0f",
+    "hash": "805f1e41fa6a7e978948f552bba8d00d5254ac0f",
     "stats": [
       {
         "additions": 9,
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "commit": "41e7052ef933216c70e482f7c46005aa16b0c477",
+    "hash": "41e7052ef933216c70e482f7c46005aa16b0c477",
     "stats": [
       {
         "additions": 44,
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "commit": "0657b68450be2ede380d407c75883baf9afc1590",
+    "hash": "0657b68450be2ede380d407c75883baf9afc1590",
     "stats": [
       {
         "additions": 23,
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "commit": "69222d0644972bac27d6696f1f006f192a77897d",
+    "hash": "69222d0644972bac27d6696f1f006f192a77897d",
     "stats": [
       {
         "additions": 4,
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "commit": "933d09839b6e56d27b318af51efb24bf0559c12a",
+    "hash": "933d09839b6e56d27b318af51efb24bf0559c12a",
     "stats": [
       {
         "additions": 18,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "commit": "59a673e0ccac8f8705a8f60c876f19072168dd5a",
+    "hash": "59a673e0ccac8f8705a8f60c876f19072168dd5a",
     "stats": [
       {
         "additions": 0,
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "commit": "3da44c73185d242a68417d0c987bb52752c7d4be",
+    "hash": "3da44c73185d242a68417d0c987bb52752c7d4be",
     "stats": [
       {
         "additions": 2,
@@ -255,7 +255,7 @@
     ]
   },
   {
-    "commit": "4c569a90c79f4a01862104670cfcc1fc0d626538",
+    "hash": "4c569a90c79f4a01862104670cfcc1fc0d626538",
     "stats": [
       {
         "additions": 1,
@@ -265,7 +265,7 @@
     ]
   },
   {
-    "commit": "042b854ebc8ced47139077e23f78f97bda3efb3f",
+    "hash": "042b854ebc8ced47139077e23f78f97bda3efb3f",
     "stats": [
       {
         "additions": 5,
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "commit": "fba589811d6c2fa63a36b8ca50461b30c2006def",
+    "hash": "fba589811d6c2fa63a36b8ca50461b30c2006def",
     "stats": [
       {
         "additions": 0,
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "commit": "53c3c8ccd4b347e7e2e71716b5e30c7341538e8a",
+    "hash": "53c3c8ccd4b347e7e2e71716b5e30c7341538e8a",
     "stats": [
       {
         "additions": 0,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "commit": "95697b4e495d85ef25589e4181472b1f25ae608a",
+    "hash": "95697b4e495d85ef25589e4181472b1f25ae608a",
     "stats": [
       {
         "additions": 2,
@@ -380,7 +380,7 @@
     ]
   },
   {
-    "commit": "73c243b552c78054cb641bd8d24d9782ce011f4c",
+    "hash": "73c243b552c78054cb641bd8d24d9782ce011f4c",
     "stats": [
       {
         "additions": 21,
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "commit": "47e77308d75af8bd18926fb55264abcda104375c",
+    "hash": "47e77308d75af8bd18926fb55264abcda104375c",
     "stats": [
       {
         "additions": 5,
@@ -440,7 +440,7 @@
     ]
   },
   {
-    "commit": "7f0e9e34c99c2d0e987bba073f2444920e23958d",
+    "hash": "7f0e9e34c99c2d0e987bba073f2444920e23958d",
     "stats": [
       {
         "additions": 9,
@@ -465,7 +465,7 @@
     ]
   },
   {
-    "commit": "577c730d49c40ced87ae3e9f8febf6eeddecf130",
+    "hash": "577c730d49c40ced87ae3e9f8febf6eeddecf130",
     "stats": [
       {
         "additions": 2,
@@ -495,7 +495,7 @@
     ]
   },
   {
-    "commit": "f1a9a24fd21e814fe42817b4161cc884c022fbd9",
+    "hash": "f1a9a24fd21e814fe42817b4161cc884c022fbd9",
     "stats": [
       {
         "additions": 18,
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "commit": "99ad9245549476729f2be6547edeebbdfac4d02e",
+    "hash": "99ad9245549476729f2be6547edeebbdfac4d02e",
     "stats": [
       {
         "additions": 38,
@@ -535,7 +535,7 @@
     ]
   },
   {
-    "commit": "b707e775814f9039c40b93faa6317ed7befb44a7",
+    "hash": "b707e775814f9039c40b93faa6317ed7befb44a7",
     "stats": [
       {
         "additions": 3,
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "commit": "85ab369c0d1060195308cdfa560a0293135efb28",
+    "hash": "85ab369c0d1060195308cdfa560a0293135efb28",
     "stats": [
       {
         "additions": 1,
@@ -600,7 +600,7 @@
     ]
   },
   {
-    "commit": "0fcafddfeb8d59494afd86e63e7e774237e2de7b",
+    "hash": "0fcafddfeb8d59494afd86e63e7e774237e2de7b",
     "stats": [
       {
         "additions": 1,
@@ -615,7 +615,7 @@
     ]
   },
   {
-    "commit": "4431d109cb4803ef944bb40b45400c17def87903",
+    "hash": "4431d109cb4803ef944bb40b45400c17def87903",
     "stats": [
       {
         "additions": 2,
@@ -625,7 +625,7 @@
     ]
   },
   {
-    "commit": "66f07c0e9ead7c2297804debf3ef31448463d5db",
+    "hash": "66f07c0e9ead7c2297804debf3ef31448463d5db",
     "stats": [
       {
         "additions": 1,
@@ -685,7 +685,7 @@
     ]
   },
   {
-    "commit": "8504a86fdfc54d2a71304324814c539e674bc34c",
+    "hash": "8504a86fdfc54d2a71304324814c539e674bc34c",
     "stats": [
       {
         "additions": 2,
@@ -740,7 +740,7 @@
     ]
   },
   {
-    "commit": "6a93d886965f6bde28b2ed47647a0d68d6a0e7c7",
+    "hash": "6a93d886965f6bde28b2ed47647a0d68d6a0e7c7",
     "stats": [
       {
         "additions": 1,
@@ -760,7 +760,7 @@
     ]
   },
   {
-    "commit": "d0efa24b915bb90843f9b8b5100bf890e1730be3",
+    "hash": "d0efa24b915bb90843f9b8b5100bf890e1730be3",
     "stats": [
       {
         "additions": 2,
@@ -815,7 +815,7 @@
     ]
   },
   {
-    "commit": "9ed653762c4b4d77a1f964fa48cbdf08d246e0af",
+    "hash": "9ed653762c4b4d77a1f964fa48cbdf08d246e0af",
     "stats": [
       {
         "additions": 2,
@@ -855,7 +855,7 @@
     ]
   },
   {
-    "commit": "ea00737621459bf5693e5e695e291a0989fc9a9e",
+    "hash": "ea00737621459bf5693e5e695e291a0989fc9a9e",
     "stats": [
       {
         "additions": 1,
@@ -915,7 +915,7 @@
     ]
   },
   {
-    "commit": "ee6ef2d73d32282c63d127bc835638a9160641b5",
+    "hash": "ee6ef2d73d32282c63d127bc835638a9160641b5",
     "stats": [
       {
         "additions": 18,

@@ -5,8 +5,8 @@
       "master",
       "origin/master"
     ],
-    "commit": "69d13fd57984d923c14d2d129cf57598a4de95e8",
-    "commitAbbrev": "69d13fd",
+    "hash": "69d13fd57984d923c14d2d129cf57598a4de95e8",
+    "hashAbbrev": "69d13fd",
     "tree": "ddc6e4bf07104162669a5517f567f44798427dfb",
     "treeAbbrev": "ddc6e4b",
     "parents": [
@@ -53,8 +53,8 @@
   },
   {
     "refs": [],
-    "commit": "525269e1f7054d83072833debbcb72816b77712e",
-    "commitAbbrev": "525269e",
+    "hash": "525269e1f7054d83072833debbcb72816b77712e",
+    "hashAbbrev": "525269e",
     "tree": "2f58941c1f1ad6ceb7989b6af212e9858b16f95b",
     "treeAbbrev": "2f58941",
     "parents": [
@@ -101,8 +101,8 @@
   },
   {
     "refs": [],
-    "commit": "49563eb4e1559e31ce54cbfa0d3d39677e64957e",
-    "commitAbbrev": "49563eb",
+    "hash": "49563eb4e1559e31ce54cbfa0d3d39677e64957e",
+    "hashAbbrev": "49563eb",
     "tree": "b6e4e69bb3190ca6a2881e94c0cb9410163d3520",
     "treeAbbrev": "b6e4e69",
     "parents": [
@@ -139,8 +139,8 @@
   },
   {
     "refs": [],
-    "commit": "805f1e41fa6a7e978948f552bba8d00d5254ac0f",
-    "commitAbbrev": "805f1e4",
+    "hash": "805f1e41fa6a7e978948f552bba8d00d5254ac0f",
+    "hashAbbrev": "805f1e4",
     "tree": "a9a1cf826714f218d695dfa8771bf7527d3cd056",
     "treeAbbrev": "a9a1cf8",
     "parents": [
@@ -172,8 +172,8 @@
   },
   {
     "refs": [],
-    "commit": "41e7052ef933216c70e482f7c46005aa16b0c477",
-    "commitAbbrev": "41e7052",
+    "hash": "41e7052ef933216c70e482f7c46005aa16b0c477",
+    "hashAbbrev": "41e7052",
     "tree": "d09b55db97b2bad5021b5253c897a885941a3259",
     "treeAbbrev": "d09b55d",
     "parents": [
@@ -215,8 +215,8 @@
   },
   {
     "refs": [],
-    "commit": "0657b68450be2ede380d407c75883baf9afc1590",
-    "commitAbbrev": "0657b68",
+    "hash": "0657b68450be2ede380d407c75883baf9afc1590",
+    "hashAbbrev": "0657b68",
     "tree": "aa437d668c7ef00831965b6ab3235aa5135271b3",
     "treeAbbrev": "aa437d6",
     "parents": [
@@ -258,8 +258,8 @@
   },
   {
     "refs": [],
-    "commit": "69222d0644972bac27d6696f1f006f192a77897d",
-    "commitAbbrev": "69222d0",
+    "hash": "69222d0644972bac27d6696f1f006f192a77897d",
+    "hashAbbrev": "69222d0",
     "tree": "eaf7bfff08b5637800a58ebe8479561981d34367",
     "treeAbbrev": "eaf7bff",
     "parents": [
@@ -331,8 +331,8 @@
   },
   {
     "refs": [],
-    "commit": "933d09839b6e56d27b318af51efb24bf0559c12a",
-    "commitAbbrev": "933d098",
+    "hash": "933d09839b6e56d27b318af51efb24bf0559c12a",
+    "hashAbbrev": "933d098",
     "tree": "31a85eab84afda7338b3c3406502895510dd7b5e",
     "treeAbbrev": "31a85ea",
     "parents": [
@@ -369,8 +369,8 @@
   },
   {
     "refs": [],
-    "commit": "59a673e0ccac8f8705a8f60c876f19072168dd5a",
-    "commitAbbrev": "59a673e",
+    "hash": "59a673e0ccac8f8705a8f60c876f19072168dd5a",
+    "hashAbbrev": "59a673e",
     "tree": "2f51a944b7a36bfbd638f6973da7e6f662e7c390",
     "treeAbbrev": "2f51a94",
     "parents": [
@@ -407,8 +407,8 @@
   },
   {
     "refs": [],
-    "commit": "3da44c73185d242a68417d0c987bb52752c7d4be",
-    "commitAbbrev": "3da44c7",
+    "hash": "3da44c73185d242a68417d0c987bb52752c7d4be",
+    "hashAbbrev": "3da44c7",
     "tree": "7a9a8c889ae519dec7b54706595ca2a07fb1dd0b",
     "treeAbbrev": "7a9a8c8",
     "parents": [
@@ -490,8 +490,8 @@
   },
   {
     "refs": [],
-    "commit": "4c569a90c79f4a01862104670cfcc1fc0d626538",
-    "commitAbbrev": "4c569a9",
+    "hash": "4c569a90c79f4a01862104670cfcc1fc0d626538",
+    "hashAbbrev": "4c569a9",
     "tree": "01cb5626e6a7de0a565dcaf16e8828f52f5d8d91",
     "treeAbbrev": "01cb562",
     "parents": [
@@ -523,8 +523,8 @@
   },
   {
     "refs": [],
-    "commit": "042b854ebc8ced47139077e23f78f97bda3efb3f",
-    "commitAbbrev": "042b854",
+    "hash": "042b854ebc8ced47139077e23f78f97bda3efb3f",
+    "hashAbbrev": "042b854",
     "tree": "fe0bfb31e7caf62f073772f0244ab41f6a7a8393",
     "treeAbbrev": "fe0bfb3",
     "parents": [
@@ -571,8 +571,8 @@
   },
   {
     "refs": [],
-    "commit": "fba589811d6c2fa63a36b8ca50461b30c2006def",
-    "commitAbbrev": "fba5898",
+    "hash": "fba589811d6c2fa63a36b8ca50461b30c2006def",
+    "hashAbbrev": "fba5898",
     "tree": "059d206101780705cd3f4adef0a302052f41ca87",
     "treeAbbrev": "059d206",
     "parents": [
@@ -629,8 +629,8 @@
   },
   {
     "refs": [],
-    "commit": "53c3c8ccd4b347e7e2e71716b5e30c7341538e8a",
-    "commitAbbrev": "53c3c8c",
+    "hash": "53c3c8ccd4b347e7e2e71716b5e30c7341538e8a",
+    "hashAbbrev": "53c3c8c",
     "tree": "6c642f1d56ef94fe45e4919c0b711d105a24a3e6",
     "treeAbbrev": "6c642f1",
     "parents": [
@@ -687,8 +687,8 @@
   },
   {
     "refs": [],
-    "commit": "95697b4e495d85ef25589e4181472b1f25ae608a",
-    "commitAbbrev": "95697b4",
+    "hash": "95697b4e495d85ef25589e4181472b1f25ae608a",
+    "hashAbbrev": "95697b4",
     "tree": "7ce4cb2fa388331f902a5796fd5a2eea61081074",
     "treeAbbrev": "7ce4cb2",
     "parents": [
@@ -730,8 +730,8 @@
   },
   {
     "refs": [],
-    "commit": "73c243b552c78054cb641bd8d24d9782ce011f4c",
-    "commitAbbrev": "73c243b",
+    "hash": "73c243b552c78054cb641bd8d24d9782ce011f4c",
+    "hashAbbrev": "73c243b",
     "tree": "dd7a0a3def44ca48e1528d18b29967fb58b1507e",
     "treeAbbrev": "dd7a0a3",
     "parents": [
@@ -778,8 +778,8 @@
   },
   {
     "refs": [],
-    "commit": "47e77308d75af8bd18926fb55264abcda104375c",
-    "commitAbbrev": "47e7730",
+    "hash": "47e77308d75af8bd18926fb55264abcda104375c",
+    "hashAbbrev": "47e7730",
     "tree": "efdce67424fcc76a9d626ca840a4d91a6b78891e",
     "treeAbbrev": "efdce67",
     "parents": [
@@ -836,8 +836,8 @@
   },
   {
     "refs": [],
-    "commit": "7f0e9e34c99c2d0e987bba073f2444920e23958d",
-    "commitAbbrev": "7f0e9e3",
+    "hash": "7f0e9e34c99c2d0e987bba073f2444920e23958d",
+    "hashAbbrev": "7f0e9e3",
     "tree": "3857b8dc0b0f8832632225bea4922523605ea76b",
     "treeAbbrev": "3857b8d",
     "parents": [
@@ -884,8 +884,8 @@
   },
   {
     "refs": [],
-    "commit": "577c730d49c40ced87ae3e9f8febf6eeddecf130",
-    "commitAbbrev": "577c730",
+    "hash": "577c730d49c40ced87ae3e9f8febf6eeddecf130",
+    "hashAbbrev": "577c730",
     "tree": "62952697fb280f335f3fb9a452ae402ee63edec0",
     "treeAbbrev": "6295269",
     "parents": [
@@ -937,8 +937,8 @@
   },
   {
     "refs": [],
-    "commit": "f1a9a24fd21e814fe42817b4161cc884c022fbd9",
-    "commitAbbrev": "f1a9a24",
+    "hash": "f1a9a24fd21e814fe42817b4161cc884c022fbd9",
+    "hashAbbrev": "f1a9a24",
     "tree": "82e1cc59888815d2ea4b1cdd0a9f7ffae7e90dfd",
     "treeAbbrev": "82e1cc5",
     "parents": [
@@ -985,8 +985,8 @@
   },
   {
     "refs": [],
-    "commit": "99ad9245549476729f2be6547edeebbdfac4d02e",
-    "commitAbbrev": "99ad924",
+    "hash": "99ad9245549476729f2be6547edeebbdfac4d02e",
+    "hashAbbrev": "99ad924",
     "tree": "7bd5a75c19429aa7d0a13bfa40192f4c541341e0",
     "treeAbbrev": "7bd5a75",
     "parents": [
@@ -1023,8 +1023,8 @@
   },
   {
     "refs": [],
-    "commit": "b707e775814f9039c40b93faa6317ed7befb44a7",
-    "commitAbbrev": "b707e77",
+    "hash": "b707e775814f9039c40b93faa6317ed7befb44a7",
+    "hashAbbrev": "b707e77",
     "tree": "1f3dcf4de1f05cf6dd3f140ab344c87852028cfb",
     "treeAbbrev": "1f3dcf4",
     "parents": [
@@ -1101,8 +1101,8 @@
   },
   {
     "refs": [],
-    "commit": "85ab369c0d1060195308cdfa560a0293135efb28",
-    "commitAbbrev": "85ab369",
+    "hash": "85ab369c0d1060195308cdfa560a0293135efb28",
+    "hashAbbrev": "85ab369",
     "tree": "b7ae0f261cd8b868252b14afcc3b8695ddb93b4f",
     "treeAbbrev": "b7ae0f2",
     "parents": [
@@ -1134,8 +1134,8 @@
   },
   {
     "refs": [],
-    "commit": "0fcafddfeb8d59494afd86e63e7e774237e2de7b",
-    "commitAbbrev": "0fcafdd",
+    "hash": "0fcafddfeb8d59494afd86e63e7e774237e2de7b",
+    "hashAbbrev": "0fcafdd",
     "tree": "9c19439ce8fe18a0488f8e040d68d235ca4ba7f6",
     "treeAbbrev": "9c19439",
     "parents": [
@@ -1172,8 +1172,8 @@
   },
   {
     "refs": [],
-    "commit": "4431d109cb4803ef944bb40b45400c17def87903",
-    "commitAbbrev": "4431d10",
+    "hash": "4431d109cb4803ef944bb40b45400c17def87903",
+    "hashAbbrev": "4431d10",
     "tree": "535d52e977d7c96437d44bdac0daf78d22d55447",
     "treeAbbrev": "535d52e",
     "parents": [
@@ -1205,8 +1205,8 @@
   },
   {
     "refs": [],
-    "commit": "66f07c0e9ead7c2297804debf3ef31448463d5db",
-    "commitAbbrev": "66f07c0",
+    "hash": "66f07c0e9ead7c2297804debf3ef31448463d5db",
+    "hashAbbrev": "66f07c0",
     "tree": "dcf8bb2a210a595690102de5cdfe13b6afa6d10e",
     "treeAbbrev": "dcf8bb2",
     "parents": [
@@ -1288,8 +1288,8 @@
   },
   {
     "refs": [],
-    "commit": "8504a86fdfc54d2a71304324814c539e674bc34c",
-    "commitAbbrev": "8504a86",
+    "hash": "8504a86fdfc54d2a71304324814c539e674bc34c",
+    "hashAbbrev": "8504a86",
     "tree": "7d83e9f60f0dc873f3803234946b1e74ea0cf9a1",
     "treeAbbrev": "7d83e9f",
     "parents": [
@@ -1366,8 +1366,8 @@
   },
   {
     "refs": [],
-    "commit": "6a93d886965f6bde28b2ed47647a0d68d6a0e7c7",
-    "commitAbbrev": "6a93d88",
+    "hash": "6a93d886965f6bde28b2ed47647a0d68d6a0e7c7",
+    "hashAbbrev": "6a93d88",
     "tree": "ba9943921bd16688157b188cff075fd89326cf27",
     "treeAbbrev": "ba99439",
     "parents": [
@@ -1409,8 +1409,8 @@
   },
   {
     "refs": [],
-    "commit": "d0efa24b915bb90843f9b8b5100bf890e1730be3",
-    "commitAbbrev": "d0efa24",
+    "hash": "d0efa24b915bb90843f9b8b5100bf890e1730be3",
+    "hashAbbrev": "d0efa24",
     "tree": "839698e8101c110fc1f8665b3856c83b8668d907",
     "treeAbbrev": "839698e",
     "parents": [
@@ -1487,8 +1487,8 @@
   },
   {
     "refs": [],
-    "commit": "9ed653762c4b4d77a1f964fa48cbdf08d246e0af",
-    "commitAbbrev": "9ed6537",
+    "hash": "9ed653762c4b4d77a1f964fa48cbdf08d246e0af",
+    "hashAbbrev": "9ed6537",
     "tree": "6c6e784f5cf0b1d46c0e6413176ea546ba7bf107",
     "treeAbbrev": "6c6e784",
     "parents": [
@@ -1550,8 +1550,8 @@
   },
   {
     "refs": [],
-    "commit": "ea00737621459bf5693e5e695e291a0989fc9a9e",
-    "commitAbbrev": "ea00737",
+    "hash": "ea00737621459bf5693e5e695e291a0989fc9a9e",
+    "hashAbbrev": "ea00737",
     "tree": "3583770efd7a51c04b45205a61b7110871b360b2",
     "treeAbbrev": "3583770",
     "parents": [
@@ -1633,8 +1633,8 @@
   },
   {
     "refs": [],
-    "commit": "ee6ef2d73d32282c63d127bc835638a9160641b5",
-    "commitAbbrev": "ee6ef2d",
+    "hash": "ee6ef2d73d32282c63d127bc835638a9160641b5",
+    "hashAbbrev": "ee6ef2d",
     "tree": "999035cd021e7faae2e58bc52779213e75e60297",
     "treeAbbrev": "999035c",
     "parents": [],
