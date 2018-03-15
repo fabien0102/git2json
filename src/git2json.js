@@ -23,18 +23,20 @@ const defaultFields = {
 
 /**
  * Execute git log on current folder and return a pretty object
- * 
+ *
  * @param {object} [options]
  * @param {object} [options.fields] - fields to exports
+ * @param {string} [options.path] - path of target git repo
  * @return {Promise}
  */
 function git2json({
-  fields = defaultFields
+  fields = defaultFields,
+  path = process.cwd()
 } = {}) {
   const exec = require('child_process').exec; // this require can't be global for mocking issue
   const keys = Object.keys(fields);
   const prettyKeys = keys.map(a => fields[a].value).join('%x00');
-  const gitLogCmd = `git log --pretty=format:"%x01${prettyKeys}%x01" --numstat --date-order`;
+  const gitLogCmd = `git -C ${path} log --pretty=format:"%x01${prettyKeys}%x01" --numstat --date-order`;
 
   return new Promise((resolve, reject) => {
     exec(gitLogCmd, (err, stdout, stderr) => {

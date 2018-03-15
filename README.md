@@ -45,3 +45,14 @@ git2json
   .run({fields: exportedFields})
   .then(json => console.log(json));
 ```
+
+You can also specify a path for the git repository. Just like the above options, doing so is optional with sane defaults. Here is an example use case combining multiple git commit logs.
+
+```javascript
+const git2json = require('@fabien0102/git2json');
+const paths = ['~/etc', '~/src/hack/git2json'];
+
+const logPs = paths.map(path => git2json.run({ path }));
+
+Promise.all(logPs).then(json => [].concat(...json)).then(console.log);
+```
