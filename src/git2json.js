@@ -59,7 +59,9 @@ function git2json({
             stats: stats[k + 1].split('\n').filter(a => a).map(a => {
               let b = a.split('\t');
               return {
-                additions: +b[0], deletions: +b[1], file: b[2]
+                additions: isNaN(b[0]) ? null : +b[0],
+                deletions: isNaN(b[1]) ? null : +b[1],
+                file: b[2]
               };
             })
           });
