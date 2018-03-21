@@ -1,0 +1,34 @@
+[
+  {
+    "refs": [
+      "HEAD",
+      "master"
+    ],
+    "hash": "534c663948d50c1ac0c149034fd5b222dc406594",
+    "hashAbbrev": "534c663",
+    "tree": "69977d2f39eaa5eaa11eaacb7fdedadb5182f3ff",
+    "treeAbbrev": "69977d2",
+    "parents": [],
+    "parentsAbbrev": [],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1521644975000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1521644975000
+    },
+    "subject": "Commit for testing NaN stats",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": null,
+        "deletions": null,
+        "file": "favicon.ico"
+      }
+    ]
+  }
+]

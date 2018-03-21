@@ -27,4 +27,15 @@ describe('git2json.run', () => {
     return git2json({ fields: { hash: { value: '%H' } } })
       .then(res => expect(res).toEqual(expected));
   });
+
+  it('should parse \'-\' character for stats correctly', () => {
+    require('child_process').__setExecFn((cmd, callback) => callback(null, fs.readFileSync('test/gitlog-NaN-stats.mock', 'utf8')));
+    const expected = JSON.parse(fs.readFileSync('test/gitlog-NaN-stats.expected', 'utf8'));
+
+    return git2json()
+      .then(res => expect(res).toEqual(expected));
+  });
+
+
+
 });
