@@ -29,44 +29,67 @@ const defaultFields = {
  * @param {string} [options.path] - path of target git repo
  * @return {Promise}
  */
-function git2json({
-  fields = defaultFields,
-  path = process.cwd()
-} = {}) {
-  const exec = require('child_process').exec; // this require can't be global for mocking issue
+function git2json({ fields = defaultFields, path = process.cwd() } = {}) {
+  // this require can't be global for mocking issue
+  const { spawn } = require('child_process');
   const keys = Object.keys(fields);
   const prettyKeys = keys.map(a => fields[a].value).join('%x00');
   const gitLogCmd = `git -C ${path} log --pretty=format:"%x01${prettyKeys}%x01" --numstat --date-order`;
+  const [cmd, ...args] = gitLogCmd.split(' ');
 
   return new Promise((resolve, reject) => {
-    exec(gitLogCmd, (err, stdout, stderr) => {
-      if (err) return reject(err);
-      const data = stdout.split('\u0001');
-      const stats = data.filter((a, i) => (i + 1) % 2);
-      let json = data.filter((a, i) => i % 2).map((raw, k) => {
-        return Object.assign(raw.split('\u0000').reduce((mem, field, j) => {
-          const value = fields[keys[j]].parser ? fields[keys[j]].parser(field) : field.trim();
-          // Deal with nested key format (eg: 'author.name')
-          if (/\./.exec(keys[j])) {
-            let nameParts = keys[j].split('.');
-            mem[nameParts[0]] = Object.assign({}, mem[nameParts[0]], { [nameParts[1]]: value });
-          } else {
-            mem[keys[j]] = value;
-          }
-          return mem;
-        }, {}), {
-            // Add parsed stats of each commit
-            stats: stats[k + 1].split('\n').filter(a => a).map(a => {
-              let b = a.split('\t');
-              return {
-                additions: isNaN(b[0]) ? null : +b[0],
-                deletions: isNaN(b[1]) ? null : +b[1],
-                file: b[2]
-              };
-            })
-          });
-      });
-      resolve(json);
+    let stderr = '';
+    let stdout = '';
+    const cp = spawn(cmd, args);
+
+    cp.stdout.on('data', data => {
+      stdout += data;
+    });
+
+    cp.stderr.on('data', data => {
+      stderr += data;
+    });
+
+    cp.on('error', reject)
+      .on('close', code => {
+        if (code !== 0) {
+          reject(stderr);
+        }
+
+        const data = stdout.split('\u0001');
+        const stats = data.filter((a, i) => (i + 1) % 2);
+
+        let json = data.filter((a, i) => i % 2).map((raw, k) => {
+          return Object.assign(
+            raw.split('\u0000').reduce((mem, field, j) => {
+              const value = fields[keys[j]].parser
+                ? fields[keys[j]].parser(field)
+                : field.trim();
+              // Deal with nested key format (eg: 'author.name')
+              if (/\./.exec(keys[j])) {
+                let nameParts = keys[j].split('.');
+                mem[nameParts[0]] = Object.assign({}, mem[nameParts[0]], {
+                  [nameParts[1]]: value
+                });
+              } else {
+                mem[keys[j]] = value;
+              }
+              return mem;
+            }, {}),
+            {
+              // Add parsed stats of each commit
+              stats: stats[k + 1].split('\n').filter(a => a).map(a => {
+                let b = a.split('\t');
+                return {
+                  additions: isNaN(b[0]) ? null : +b[0],
+                  deletions: isNaN(b[1]) ? null : +b[1],
+                  file: b[2]
+                };
+              })
+            }
+          );
+        });
+        resolve(json);
     });
   });
 }
