@@ -31,6 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "codeclimate-test-reporter": "^0.4.0",
-    "jest": "18.1.0"
+    "jest": "18.1.0",
+    "mock-spawn": "^0.2.6"
   }
 }
