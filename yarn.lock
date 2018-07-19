@@ -1426,6 +1426,12 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+mock-spawn@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/mock-spawn/-/mock-spawn-0.2.6.tgz#b39c15a1c067504310144151f2c1de344d03937f"
+  dependencies:
+    through "2.3.x"
+
 ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
@@ -1921,6 +1927,10 @@ test-exclude@^3.3.0:
 throat@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-3.0.0.tgz#e7c64c867cbb3845f10877642f7b60055b8ec0d6"
+
+through@2.3.x:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
 tmpl@1.0.x:
   version "1.0.4"
