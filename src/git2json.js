@@ -34,7 +34,7 @@ function git2json({ fields = defaultFields, path = process.cwd() } = {}) {
   const { spawn } = require('child_process');
   const keys = Object.keys(fields);
   const prettyKeys = keys.map(a => fields[a].value).join('%x00');
-  const args = ['-C', path, 'log', `--pretty=format:%x01${prettyKeys}%x01`, '--numstat', '--date-order']
+  const args = ['-C', path, 'log', `--pretty=format:%x01${prettyKeys}%x01`, '--numstat', '--date-order', '--all']
 
   return new Promise((resolve, reject) => {
     let stderr = '';
