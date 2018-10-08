@@ -1,0 +1,288 @@
+[
+  {
+    "refs": [
+      "HEAD",
+      "master",
+      "origin/master",
+      "origin/HEAD"
+    ],
+    "hash": "77f09870e158776e19c1e3adfedeea02070b0686",
+    "hashAbbrev": "77f0987",
+    "tree": "c8591f943ec05e21e56d71e7015226264ab85613",
+    "treeAbbrev": "c8591f9",
+    "parents": [
+      "544e1fc994d0b3b1ee92fe42ff7a1b50523b5a85"
+    ],
+    "parentsAbbrev": [
+      "544e1fc"
+    ],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1516203063000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1516203063000
+    },
+    "subject": "Update readme",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 8,
+        "deletions": 2,
+        "file": "readme.md"
+      }
+    ]
+  },
+  {
+    "refs": [],
+    "hash": "544e1fc994d0b3b1ee92fe42ff7a1b50523b5a85",
+    "hashAbbrev": "544e1fc",
+    "tree": "95788a9220353f7c9a94f5a003433ac37f35b6ad",
+    "treeAbbrev": "95788a9",
+    "parents": [
+      "d6f4607223f774e9898a01a7f442da56ad6e08ca"
+    ],
+    "parentsAbbrev": [
+      "d6f4607"
+    ],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1516203053000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1516203053000
+    },
+    "subject": "Add preview screenshot of current iteration and background",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": null,
+        "deletions": null,
+        "file": ".github/screenshots/preview.png"
+      }
+    ]
+  },
+  {
+    "refs": [],
+    "hash": "d6f4607223f774e9898a01a7f442da56ad6e08ca",
+    "hashAbbrev": "d6f4607",
+    "tree": "2bc8e8aa28003eb79ed113452b055e31a8f5a1d8",
+    "treeAbbrev": "2bc8e8a",
+    "parents": [
+      "4e55d377358211eb4cdea2ac6e077ae9f0f9294c"
+    ],
+    "parentsAbbrev": [
+      "4e55d37"
+    ],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1516202872000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1516202872000
+    },
+    "subject": "Remove old base16 config for outdated iteration of colors",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 0,
+        "deletions": 18,
+        "file": "vice.yml"
+      }
+    ]
+  },
+  {
+    "refs": [],
+    "hash": "4e55d377358211eb4cdea2ac6e077ae9f0f9294c",
+    "hashAbbrev": "4e55d37",
+    "tree": "d69314e45db2d55ceaa9f9ce7b364de944a9976d",
+    "treeAbbrev": "d69314e",
+    "parents": [
+      "582ff08e48e44d88f49480012dca534c34b487ec"
+    ],
+    "parentsAbbrev": [
+      "582ff08"
+    ],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1514224010000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1514224010000
+    },
+    "subject": "Update readme",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 5,
+        "deletions": 1,
+        "file": "readme.md"
+      }
+    ]
+  },
+  {
+    "refs": [],
+    "hash": "582ff08e48e44d88f49480012dca534c34b487ec",
+    "hashAbbrev": "582ff08",
+    "tree": "e3915921cfea976dab5f8202dfa4b16967bab8d3",
+    "treeAbbrev": "e391592",
+    "parents": [
+      "af1d4417aba1bc28529a6f523f64209809eecbe7"
+    ],
+    "parentsAbbrev": [
+      "af1d441"
+    ],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1514223812000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1514223812000
+    },
+    "subject": "Add scheme file, it only took me a year and a half lol",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 0,
+        "deletions": 36,
+        "file": "fielding-vice.Xresources"
+      },
+      {
+        "additions": 0,
+        "deletions": 357,
+        "file": "fielding-vice.itermcolors"
+      },
+      {
+        "additions": 18,
+        "deletions": 0,
+        "file": "vice.yml"
+      }
+    ]
+  },
+  {
+    "refs": [],
+    "hash": "af1d4417aba1bc28529a6f523f64209809eecbe7",
+    "hashAbbrev": "af1d441",
+    "tree": "31c0a57425f6a77250b082500b14ba45c3ea700f",
+    "treeAbbrev": "31c0a57",
+    "parents": [],
+    "parentsAbbrev": [],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1464869103000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1464869103000
+    },
+    "subject": "Initial commit of non finished colorscheme",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 36,
+        "deletions": 0,
+        "file": "fielding-vice.Xresources"
+      },
+      {
+        "additions": 357,
+        "deletions": 0,
+        "file": "fielding-vice.itermcolors"
+      },
+      {
+        "additions": 1,
+        "deletions": 0,
+        "file": "readme.md"
+      }
+    ]
+  },
+  {
+    "refs": [
+      "HEAD",
+      "master",
+      "origin/master",
+      "origin/HEAD"
+    ],
+    "hash": "171fe0991c7d7a1b79ac7e41c5a5ad5e23510263",
+    "hashAbbrev": "171fe09",
+    "tree": "317d76bd5ff8741a8ba2390601def460149e2b55",
+    "treeAbbrev": "317d76b",
+    "parents": [
+      "77b724844d5958f8f36c437b2c28db17a0e3e75e"
+    ],
+    "parentsAbbrev": [
+      "77b7248"
+    ],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1529707289000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1529707289000
+    },
+    "subject": "Update with improved bufferline/tabline colors",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 2,
+        "deletions": 2,
+        "file": "plugin/lightline-vice.vim"
+      }
+    ]
+  },
+  {
+    "refs": [],
+    "hash": "77b724844d5958f8f36c437b2c28db17a0e3e75e",
+    "hashAbbrev": "77b7248",
+    "tree": "58603e4d0d11bbedfb5c061c120730447c155dce",
+    "treeAbbrev": "58603e4",
+    "parents": [],
+    "parentsAbbrev": [],
+    "author": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1522485749000
+    },
+    "committer": {
+      "name": "Fielding Johnston",
+      "email": "fielding@justfielding.com",
+      "timestamp": 1522485749000
+    },
+    "subject": "Initialize lightline-vice repository",
+    "body": "",
+    "notes": "",
+    "stats": [
+      {
+        "additions": 42,
+        "deletions": 0,
+        "file": "plugin/lightline-vice.vim"
+      }
+    ]
+  }
+]

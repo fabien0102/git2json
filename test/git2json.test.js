@@ -47,6 +47,16 @@ describe('git2json.run', () => {
       .then(res => expect(res).toEqual(expected));
   });
 
+  it('should handle and combine multiple target repository paths', () => {
+    child_process.spawn.sequence.add(child_process.spawn.simple(0, fs.readFileSync('test/gitlog-multi-one.mock', 'utf8')));
+    child_process.spawn.sequence.add(child_process.spawn.simple(0, fs.readFileSync('test/gitlog-multi-two.mock', 'utf8')));
+
+    const expected = JSON.parse(fs.readFileSync('test/gitlog-multi.expected', 'utf8'));
+
+    return git2json({paths: ['/mock/path/one', '/mock/path/two'] })
+      .then(res => expect(res).toEqual(expected));
+  });
+
 
 
 });

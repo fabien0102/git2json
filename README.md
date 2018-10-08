@@ -1,4 +1,4 @@
-# git2json 
+# git2json
 [![Build Status](https://travis-ci.org/fabien0102/git2json.svg?branch=master)](https://travis-ci.org/fabien0102/git2json)
 [![Code Climate](https://codeclimate.com/github/fabien0102/git2json/badges/gpa.svg)](https://codeclimate.com/github/fabien0102/git2json)
 [![Issue Count](https://lima.codeclimate.com/github/fabien0102/git2json/badges/issue_count.svg)](https://lima.codeclimate.com/github/fabien0102/git2json)
@@ -46,13 +46,26 @@ git2json
   .then(json => console.log(json));
 ```
 
-You can also specify a path for the git repository. Just like the above options, doing so is optional with sane defaults. Here is an example use case combining multiple git commit logs.
+You can also specify a path, or paths, for the git repository. Just like the above options, doing so is optional with sane defaults. Multiple paths results in a flattened combined log output.
+
+Example specifying `path`:
+
+```javascript
+const git2json = require('@fabien0102/git2json');
+const path = '~/src/hack/git2json';
+
+git2json
+  .run({ path })
+  .then(console.log);
+```
+
+Example specifying `paths`:
 
 ```javascript
 const git2json = require('@fabien0102/git2json');
 const paths = ['~/etc', '~/src/hack/git2json'];
 
-const logPs = paths.map(path => git2json.run({ path }));
-
-Promise.all(logPs).then(json => [].concat(...json)).then(console.log);
+git2json
+  .run({ paths })
+  .then(console.log);
 ```
