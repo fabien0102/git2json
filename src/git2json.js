@@ -34,7 +34,13 @@ function git2json({ fields = defaultFields, path = process.cwd(), paths = path }
   const { spawn } = require('child_process');
   const keys = Object.keys(fields);
   const prettyKeys = keys.map(a => fields[a].value).join('%x00');
-  paths = Array.isArray(paths) ? paths : [paths];
+  // cast paths to Array and ignore paths if it is an empty Array
+  paths = Array.isArray(paths)
+    ? paths.length > 0
+      ? paths
+      : [path]
+    : [paths];
+
   const args = paths.map(path => [
     '-C',
     path,

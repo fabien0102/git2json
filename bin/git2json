@@ -1,6 +1,24 @@
 #!/usr/bin/env node
 'use strict';
 
-require('../src/git2json.js').run().then(json =>
-  console.log(JSON.stringify(json, null, 2))
+const cliOptions = {
+  'help': {
+    alias: 'h',
+    description: 'print this help message'
+  },
+  'version': {
+    description: 'print the version number'
+  }
+};
+
+const argv = require('yargs')
+  .usage('Usage: $0 [-h | --help] [--version] [<path>...]')
+  .example('$0', 'run git2json on current directory')
+  .example('$0 ~/src/hack/git2json', 'run git2json on specified path')
+  .example('$0 ~/etc ~/src/hack/git2json', 'run git2json on multiple paths')
+  .options(cliOptions)
+  .argv;
+
+require('../src/git2json.js').run({paths: argv._}).then(json =>
+ console.log(JSON.stringify(json, null, 2))
 );
