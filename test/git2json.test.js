@@ -1,11 +1,13 @@
 const git2json = require('../src/git2json').run;
 const mockSpawn = require('mock-spawn');
+const actualSpawn = require.requireActual('child_process').spawn
 const fs = require('fs');
 
-jest.mock('child_process', () => ({spawn: mockSpawn()}));
-const child_process = require('child_process');
+const CLI_PATH = require.resolve('../bin/git2json');
 
 describe('git2json.run', () => {
+  jest.mock('child_process', () => ({spawn: mockSpawn()}));
+  const child_process = require('child_process');
 
   it('should parse correctly git log', () => {
     child_process.spawn.setDefault(
@@ -56,7 +58,53 @@ describe('git2json.run', () => {
     return git2json({paths: ['/mock/path/one', '/mock/path/two'] })
       .then(res => expect(res).toEqual(expected));
   });
-
-
-
 });
+
+
+describe('git2json cli', () => {
+  it('passing --help should print help', () => {
+    return runGit2jsonCli(['--help']).then(stdout => {
+      expect(stdout).toMatchSnapshot()
+    })
+  })
+
+  it('passing --h should print help', () => {
+    return runGit2jsonCli(['--h']).then(stdout => {
+      expect(stdout).toMatchSnapshot()
+    })
+  })
+
+  it('passing --version should print version', () => {
+    return runGit2jsonCli(['--version']).then(stdout => {
+      expect(stdout).toMatchSnapshot()
+    })
+  })
+});
+
+function runGit2jsonCli(args = []) {
+  return new Promise((resolve, reject) => {
+    let stdout = ''
+    let stderr = ''
+    const child = actualSpawn('node', [CLI_PATH, ...args])
+
+    child.on('error', error => {
+      reject(error)
+    })
+
+    child.stdout.on('data', data => {
+      stdout += data.toString()
+    })
+
+    child.stderr.on('data', data => {
+      stderr += data.toString()
+    })
+
+    child.on('close', () => {
+      if (stderr) {
+        reject(stderr)
+      } else {
+        resolve(stdout)
+      }
+    })
+  })
+}
