@@ -29,7 +29,7 @@ const defaultFields = {
  * @param {string} [options.path] - path of target git repo
  * @return {Promise}
  */
-function git2json({ fields = defaultFields, path = process.cwd(), paths = path } = {}) {
+function git2json({ fields = defaultFields, path = process.cwd(), paths = path, extraLogOptions = [] } = {}) {
   // this require can't be global for mocking issue
   const { spawn } = require('child_process');
   const keys = Object.keys(fields);
@@ -43,7 +43,7 @@ function git2json({ fields = defaultFields, path = process.cwd(), paths = path }
     '--numstat',
     '--date-order',
     '--all'
-  ]);
+  ].concat(extraLogOptions));
 
   return Promise.all(
     args.map(
