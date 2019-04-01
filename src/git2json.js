@@ -1,4 +1,8 @@
+const { normalize } = require('path');
+const untildify = require('untildify');
 const parsers = require('./parsers');
+
+
 
 // Default fields
 // see https://git-scm.com/docs/pretty-formats for placeholder codes
@@ -37,7 +41,7 @@ function git2json({ fields = defaultFields, path = process.cwd(), paths = path, 
   paths = Array.isArray(paths) ? paths : [paths];
   const args = paths.map(path => [
     '-C',
-    path,
+    normalize(untildify(path)),
     'log',
     `--pretty=format:%x01${prettyKeys}%x01`,
     '--numstat',
