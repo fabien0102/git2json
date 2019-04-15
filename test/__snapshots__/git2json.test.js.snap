@@ -1,0 +1,32 @@
+exports[`git2json cli passing --h should print help 1`] = `
+"Usage: git2json [-h | --help] [--version] [<path>...]
+
+Options:
+  --help, -h  print this help message                                  [boolean]
+  --version   print the version number                                 [boolean]
+
+Examples:
+  git2json                            run git2json on current directory
+  git2json ~/src/hack/git2json        run git2json on specified path
+  git2json ~/etc ~/src/hack/git2json  run git2json on multiple paths
+"
+`;
+
+exports[`git2json cli passing --help should print help 1`] = `
+"Usage: git2json [-h | --help] [--version] [<path>...]
+
+Options:
+  --help, -h  print this help message                                  [boolean]
+  --version   print the version number                                 [boolean]
+
+Examples:
+  git2json                            run git2json on current directory
+  git2json ~/src/hack/git2json        run git2json on specified path
+  git2json ~/etc ~/src/hack/git2json  run git2json on multiple paths
+"
+`;
+
+exports[`git2json cli passing --version should print version 1`] = `
+"1.4.0
+"
+`;
